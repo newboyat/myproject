@@ -8,15 +8,21 @@
 
 {{$ticket->tk_detail}}
 
-<a data-toggle="modal" href="#myModal2" class="btn btn-primary">Launch modal</a>
-</div>
-<div class="modal-footer">
-<!--     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-    <button type="button" class="btn btn-primary">Save changes</button>
- -->
+<!-- <a data-toggle="modal" href="{{action('TicketController@show_detail')}}" class="btn btn-primary" 
+	data-target="#myModal2">
+	Launch modal</a>
+ -->	
+ <a data-toggle="modal" href="{{action('TicketController@show_detail')}}" class="btn btn-primary" 
+ data-target="#myModal2">
+	Launch modal</a>
 
+</div>
+
+<div class="modal-footer">
 
 <button type="button" data-dismiss="modal" class="btn btn-primary">Close</button> 
  </div>
+
+
 
 
