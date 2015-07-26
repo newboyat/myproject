@@ -19,3 +19,5 @@ Route::get('ticket/','TicketController@index');
 
 Route::get('ticket/show/{id}','TicketController@show');
 
+Route::get('ticket/show_detail','TicketController@show_detail');
+

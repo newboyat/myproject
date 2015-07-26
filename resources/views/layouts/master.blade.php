@@ -14,7 +14,7 @@
   <div class="container">
 
       <!-- Static navbar -->
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -52,15 +52,17 @@
         </div><!--/.container-fluid -->
       </nav>
 
-     <main>
+    <main>
     <div class="container-fluid">
         @yield('content')
     </div>
-</main>
+    </main>
 
     </div> <!-- /container -->
+        
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     @yield('script')
+
 </body>
 </html>
